@@ -1,12 +1,12 @@
-Essa é uma visão geral de como subir arquivos para um servidor em Flutter.
+Visão geral de como subir arquivos para o servidor em Flutter.
 
-Primeiro, você precisa selecionar o arquivo que deseja subir. Use o plug-in file_picker para permitir que o usuário selecione um arquivo.
+Primeiro, você precisa selecionar o arquivo que deseja subir. Use o plug-in [file_picker](https://pub.dev/packages/file_picker) para permitir que o usuário selecione um arquivo.
 
-Depois que o arquivo for selecionado, você pode usar o Dio para fazer o upload do arquivo para o servidor.
+Depois que o arquivo for selecionado, você pode usar o [Dio](https://pub.dev/packages/dio) para fazer o upload do arquivo para o servidor.
 
 Exemplo básico:
 
-```
+```dart
 import 'package:dio/dio.dart';
 import 'package:file_picker/file_picker.dart';
 
